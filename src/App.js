@@ -678,30 +678,32 @@ let data = [];
                     <Sales data = {state2.data}/>
                     </Card.Text>
 
-A platform which integrates carbon offset holders and carbon emitters under one roof to work together for a zero carbon emission goal.
+A platform which integrates carbon offset holders and carbon emitters under one roof to work together for a zero carbon emission goal. This project is backed by 2 smart contracts deployed in goerli test network:
+<br></br>
+<i>1. Transactions.sol :</i> A smart contract where all the actual transactions happen (using ERC-20 ).
+<br></br>
+<i>2. Soulbound.sol : </i>Smart contract to create soulbound tokens (using ERC-721). 
 
 <br></br><br></br>
     The project addresses 3 categories of people: Verifiers, Offset Holders & Buyers.
     <br></br><br></br>
-    Verifiers:
+    <i>Verifiers:</i>
     <br></br>
     These are authorities who control the other two. the deployed account will be added as a verifier by default. A verifier can add another account holder as verifier. 
     <br></br>
-    Carbon Offset holders:
+    <i>Carbon Offset holders:</i>
     <br></br>
     These are people who work towards the absorption of carbon dioxide in the air. There could be some measures to evaluate the credit held by offset holders. 
     Once they are eligible for carbon offset, they raise a claim request to the verifier. 
     <br></br>
     The verifier approves/rejects the claim request by validating the request. If approved, the offset holder receives the credit token to his account equalent to offset claimed. They can put it to sale.
     <br></br>
-    Buyers:
+    <i>Buyers:</i>
     <br></br>
     Buyers are those who emits the carbon dioxide to the atmosphere. In order to reach the goal of zero carbon emission, they need to have carbon credits to emit carbon. So they buy credit tokens from offset holders. During emission, they put it to use. Once a certain amount of carbon are emitted, the verifiers burn their credits and they need to buy it again from offset holders. Buyers are rewarded a soulbound token for every 5 credits they spent.
     <br></br>
-    <br></br>         
-### functions:
-<br></br>
-------------------
+    <br></br>  
+    <b>Functions:</b>       
 <br></br>
 1. addVerifiers(address verifierAddres)
 <br></br>
@@ -745,10 +747,12 @@ A platform which integrates carbon offset holders and carbon emitters under one 
 <br></br>
 Function to check soulbound balance of the buyer.
   
-    <br></br>
-### Authors and acknowledgment:
 <br></br>
-Farhana K. 
+<br></br>
+    <br></br>
+<b>Authors and acknowledgment:</b>
+<br></br>
+<i>Farhana K. </i>
 
 
 
